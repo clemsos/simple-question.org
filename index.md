@@ -4,12 +4,13 @@ title: Questions Simples
 
 La Forge des Questions Simples réunit des chercheurs préoccupés par l’urgence socio-écologique et désireux de s’engager dans une recherche impliquée avec les acteurs de terrain.
 
-et la charte 
-
+## La Charte 
 
 L'objectif de la Fabrique des Questions Simples est de donner le primat aux questions sur les disciplines scientifiques, pour permettre de conduire une recherche impliquée, au service de la société. Notre ambition est de pleinement prendre acte de la mesure de la dégradation de l'environnement global et de contribuer à la recherche pour la mise en oeuvre des recommandations des Nations unies. 
 
-Pourquoi les questions simples~? L'essentiel de la recherche est focalisé sur l'avancée des connaissances à l'intérieur de champs disciplinaires. L'expression des questions est complexe et s'appuie sur un corpus de connaissances très étendu dans le cadre de méthodologies bien établies. Les questions simples à l'inverse sont focalisées sur des problèmes en rupture du point de vue des traditions disciplinaires. Leur expression ne présuppose en général pas beaucoup de connaissances. Elles sont essentiellement compréhensibles en-soi. Leur réponse relève par contre d'une grande complexité.
+### Pourquoi les questions simples? 
+
+L'essentiel de la recherche est focalisée sur l'avancée des connaissances à l'intérieur de champs disciplinaires. L'expression des questions est complexe et s'appuie sur un corpus de connaissances très étendu dans le cadre de méthodologies bien établies. Les questions simples à l'inverse sont focalisées sur des problèmes en rupture du point de vue des traditions disciplinaires. Leur expression ne présuppose en général pas beaucoup de connaissances. Elles sont essentiellement compréhensibles en-soi. Leur réponse relève par contre d'une grande complexité.
 
 Il existe différents types de questions simples. Certaines ont une motivation scientifique propre. 
 C'est le cas par exemple des efforts du mathématicien Alan Turing pour définir formellement ce qu'est un calcul, ou du physicien Erwin Schrödinger pour comprendre la vie et le fonctionnement de la cellule.
