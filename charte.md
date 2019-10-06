@@ -1,6 +1,7 @@
 ---
 title: La Charte
 layout: page
+permalink: /charte/
 ---
 
 L'objectif de la Fabrique des Questions Simples est de donner le primat aux questions sur les disciplines scientifiques, pour permettre de conduire une recherche impliquée, au service de la société. Notre ambition est de pleinement prendre acte de la mesure de la dégradation de l'environnement global et de contribuer à la recherche pour la mise en oeuvre des recommandations des Nations unies.
