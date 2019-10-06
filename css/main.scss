@@ -1,0 +1,115 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// Imports
+@import "variables";
+@import "base";
+@import "grid";
+@import "typebase";
+@import "layout";
+
+a, a:visited {
+  color: $link-color;
+}
+
+#site-header {
+  margin-bottom: 5em;
+
+  h1 {
+    margin-bottom: 1em;
+    a {
+      color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        transition: 0.8s;
+        color: $link-color;
+      }
+    }
+  }
+
+
+  #intro {
+    border: 1px solid $text-color;
+    border-right: none;
+    border-left: none;
+
+    h2 {
+      margin:0;
+      padding: .2em 0 .2em 0;
+    }
+  }
+
+}
+
+#register_form {
+  form.form {
+    margin: 2em auto 3em auto;
+    max-width: 100%;
+  }
+
+  /* @media screen and (max-width: 992px) {
+    form.form {
+      max-width: 90%
+    }
+  } */
+
+  form.form .form-input {
+    padding-bottom: 1em
+  }
+
+  form.form label {
+    display: block;
+    margin-bottom: .3em;
+  }
+
+  form.form input, form.form textarea, form.form select, form.form input {
+     background-color:#FFFFFF;
+     border:solid 1px #A9A9A9;
+     font-size:13px;
+     color:#000000;
+
+     -moz-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius:5px;
+
+     padding:10px;
+
+     width: 90%;
+  }
+  form.form .submit input {
+     background-color:#FFFFFF;
+     border:solid 1px #A9A9A9;
+     font-size:16px;
+     color:#000000;
+     font-weight:normal;
+     padding:8px 25px;
+     -moz-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius:5px;
+  }
+
+  form.form .submit {
+    font-size: .8em;
+     margin-top:0px;
+     margin-bottom:0px;
+     text-align:left;
+     width: auto;
+     color: #fff;
+     background-color: $primary-color;
+     border-color: $primary-color;
+     padding: 1em 1.2em;
+    line-height: 0;
+  }
+
+}
+
+header {
+  margin: 4em 0;
+}
+
+footer {
+
+
+}

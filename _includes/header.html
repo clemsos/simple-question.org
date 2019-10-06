@@ -1,0 +1,38 @@
+<header id="site-header">
+  <h1>
+    <a href="/">{{ site.title }}</a>
+  </h1>
+
+  <div id="intro">
+    <h2>{{ site.description }}</h2>
+  </div>
+
+</header>
+
+<script>
+
+  const substantifs = ["la Forge", "Le Cercle", "la Congregation", "la Coterie", "le Ministère", "l'Agence", "le Bureau", "le Secrétariat", "le Cabinet", "la Commission", "le Comité", "le Tribunal", "la Maison", "le Bazar", "la Société", "l'Atelier", "le Collége", "l'Institut" ]
+
+  document.querySelector("#site-header h1 a").onclick = function(e){
+    e.preventDefault()
+    changeSubstantif()
+  }
+
+  document.querySelector("#site-header h1 a").onmouseout = function(e){
+    document.querySelector("#site-header h1 a").innerHTML = "{{ site.title }}"
+  }
+
+
+
+  function changeSubstantif() {
+    const replacement = substantifs[Math.floor(Math.random() * substantifs.length)]
+
+    const title = "NAME des Questions Simples".replace("NAME", capitalizeFirstLetter(replacement))
+
+    document.querySelector("#site-header h1 a").innerHTML = title
+  }
+
+  function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+</script>

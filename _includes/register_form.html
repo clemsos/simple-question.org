@@ -1,0 +1,25 @@
+
+<div id="register_form">
+  <form class="form" action="https://formspree.io/" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="form-input">
+        <label for="nameInput">Votre nom</label>
+        <input class="u-full-width" type="text" placeholder="Votre nom…" id="nameInput" name="name" required>
+      </div>
+      <div class="form-input">
+        <label for="nameInput">Votre institution (optionel)</label>
+        <input class="u-full-width" type="text" placeholder="Votre institution…" id="insitutionInput" name="institution">
+      </div>
+      <div class="form-input">
+        <label for="exampleEmailInput">Votre email</label>
+        <input class="u-full-width" type="email" placeholder="Votre adresse email…" id="exampleEmailInput" name="_replyto" required>
+      </div>
+    </div>
+    <div class="row">
+      <label for="exampleMessage">Laissez-nous un message (optionel)</label>
+      <textarea class="u-full-width" style="height:100px" placeholder="Tell us about why you plan to attend the workshop…" id="message" name="message" height="30%" maxlength="1000"></textarea>
+      <input type="hidden" name="_after" value="./thanks" />
+      <input class="button button-primary submit" type="submit" value="Envoyer">
+    </div>
+  </form>
+</div>
