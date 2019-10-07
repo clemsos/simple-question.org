@@ -21,7 +21,7 @@ La Fabrique des Questions Simples développe des activités en partenariat à la
 
 Sa mission est triple :
 - mettre la science au service de la société en participant à la construction de solutions.
-- diffuser les connaissances auprès du plus large public, scolaire, universitaire, acteur socio-économique, administration publique, citoyen.
+- partager les connaissances avec un plus large public, scolaire, universitaire, acteur socio-économique, administration publique, citoyen.
 - favoriser l'émergence d'une pensée politique de l'anthropocène afin de pouvoir appréhender les extraordinaires défis pour le futur, et de permettre de sortir du déni en donnant du sens à l'action sociale, économique et politique.
 
 ### L'Equipe
