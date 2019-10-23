@@ -21,6 +21,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: micromesomacro
 # github_username: "clemsos/micromesomacro"
 
+question: "Prise de Contact"
+
 # Build settings
 markdown: kramdown
 
