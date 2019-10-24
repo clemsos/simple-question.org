@@ -3,14 +3,15 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
+
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
-    <a class="sidebar-nav-item{% if page.title == "Actualités" %} active{% endif %}" href="/posts">Actualités</a>
+    <a class='sidebar-nav-item{% if page.title == "" %} active{% endif %}' href="/">Home</a>
+    <a class='sidebar-nav-item{% if page.title contains "Actualités" %} active{% endif %}' href="/posts">Actualités</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
