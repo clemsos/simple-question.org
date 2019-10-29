@@ -8,7 +8,6 @@ layout: post
 
 ### Vous trouverez sur cette page les documents et informations  concernant la journée d'étude *Le défi du changement climatique*, qui s'est déroulée le 15 Octobre 2019 à l'ENS de Lyon.
 
-<br />
 
 L'adaptation aux changements provoqués par la transition écologique constitue un défi pour l'ensemble des sociétés humaines. Le décalage entre les rapports du GIEC et les projections des acteurs privés comme publics témoigne de la difficulté de la tâche.
 

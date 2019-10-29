@@ -10,13 +10,30 @@
 @import "layout";
 @import "sidebar";
 
+.sidebar-toggle {
+  color: #fff;
+}
+
 #site-header {
-  margin-bottom: 5em;
+  margin: 0 ;
+  background-color: $primary-color;
+
+  @include media-query($on-palm) {
+    height: 90vh
+  }
 
   h1 {
-    margin-bottom: 1em;
+    padding: 1em 0 1.3em 0;
+    margin: 0;
+
+    @include media-query($on-palm) {
+      margin-left: .8rem;
+      font-size: 3.5rem;
+      line-height: 3.8rem;
+    }
+
     a {
-      color: $primary-color;
+      color: white;
       text-decoration: none;
 
       &:hover {
@@ -102,10 +119,6 @@
 
 }
 
-header {
-  margin: 4em 0;
-}
-
 footer {
 
 
@@ -114,4 +127,10 @@ footer {
 hr {
   margin: 1em auto;
   width: 25%;
+}
+
+.post-title {
+  font-family: 'Catamaran', 'Helvetica', sans-serif;
+
+  margin-bottom: 0.3em;
 }
