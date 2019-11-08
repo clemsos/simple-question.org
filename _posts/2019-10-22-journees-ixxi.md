@@ -131,7 +131,7 @@ envisageables. Ceci permettra d'éclairer quelques scenario de transition
 énergétique envisagés par des organisations non gouvernementales ou des
 agences gouvernementales.
 
-(Re)voir [la présentation](http://culturesciencesphysique.ens-lyon.fr/ressource/transition-energetique-Bouchet.xml) ainsi que les [transparents](uploads/journees-ixxi/Freddy_Bouchet_Transition_Energétique_IXXI.pdf).
+(Re)voir [la présentation](http://culturesciencesphysique.ens-lyon.fr/ressource/transition-energetique-Bouchet.xml) ainsi que les [transparents](/uploads/journees-ixxi/Freddy_Bouchet_Transition_Energétique_IXXI.pdf).
 
 ---
 
