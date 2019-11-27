@@ -8,7 +8,7 @@
 
 <script>
 
-  const substantifs = ["la Forge", "Le Cercle", "la Congregation", "la Coterie", "le Ministère", "l'Agence", "le Bureau", "le Secrétariat", "le Cabinet", "la Commission", "le Comité", "le Tribunal", "la Maison", "le Bazar", "la Société", "l'Atelier", "le Collége", "l'Institut" ]
+  const substantifs = ["la Forge", "Le Cercle", "la Congrégation", "la Coterie", "le Ministère", "l'Agence", "le Bureau", "le Secrétariat", "le Cabinet", "la Commission", "le Comité", "le Tribunal", "la Maison", "le Bazar", "la Société", "l'Atelier", "le Collége", "l'Institut", "la Cellule" ]
 
   document.querySelector("#site-header h1 a").onmouseover = function(e){
     e.preventDefault()
@@ -18,8 +18,6 @@
   document.querySelector("#site-header h1 a").onmouseout = function(e){
     document.querySelector("#site-header h1 a").innerHTML = "{{ site.title }}"
   }
-
-
 
   function changeSubstantif() {
     const replacement = substantifs[Math.floor(Math.random() * substantifs.length)]
