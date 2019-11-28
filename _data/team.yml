@@ -3,14 +3,14 @@ members:
     bio: "Impact politique de la révolution numérique, stratégies de résilience et environnement global"
     img: /uploads/team/stephane-grumbach.png
     url: "https://who.rocq.inria.fr/Stephane.Grumbach/"
-  - name: "Pablo Jensen"
-    bio: "Politique de la modélisation des données sociales. Indicateurs mondiaux de l’état écologique des cours d'eau"
-    img: /uploads/team/pablo-jensen.jpg
-    url: "http://perso.ens-lyon.fr/pablo.jensen/"
   - name: "Olivier Hamant"
     bio: "Résilience biologique et mécanique chez les plantes. Anthropocène et sous-optimalité du vivant"
     img: /uploads/team/olivier-hamant.jpg
     url: "https://planet-vie.ens.fr/1185/olivier-hamant"
+  - name: "Pablo Jensen"
+    bio: "Politique de la modélisation des données sociales. Indicateurs mondiaux de l’état écologique des cours d'eau"
+    img: /uploads/team/pablo-jensen.jpg
+    url: "http://perso.ens-lyon.fr/pablo.jensen/"
   - name: "Clément Renaud"
     bio: "Représentations des espaces géographiques, numériques, et socio-techniques."
     img: /uploads/team/clement-renaud.jpg

@@ -1,7 +1,9 @@
 ---
-title: "L'Equipe"
+title: "L'Équipe"
 layout: page
 ---
+
+<br />
 
 <ul id="team">
 {% for people in site.data.team.members %}
