@@ -130,3 +130,46 @@ hr {
 
   margin-bottom: 0.3em;
 }
+
+$headshot_size: 200px;
+$circle_size: 100px;
+
+#team {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+
+
+  margin: 0;
+
+  li {
+    width: 350px;
+    margin-bottom: 2em;
+  }
+
+  .people {
+    text-align: center;
+
+    p {
+      margin-top: .7em;
+    }
+
+    .headshot{
+      img {
+        height: $headshot_size;
+      }
+    }
+  }
+}
+
+
+.circular {
+  width: $circle_size*2;
+  height: $circle_size*2;
+  border-radius: $circle_size;
+  -webkit-border-radius: $circle_size;
+  -moz-border-radius: $circle_size;
+}
