@@ -6,7 +6,9 @@
   <body>
     {% include sidebar.html %}
     <div class="wrap">
-      <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+      <div class="sidebar-toggle-wrapper">
+        <label for="sidebar-checkbox" class="sidebar-toggle"><span class="dot"></span></label>
+      </div>
       {% include header.html %}
       <main class="page-content" aria-label="Content">
         <div class="wrapper">

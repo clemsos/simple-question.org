@@ -77,41 +77,54 @@ a.sidebar-nav-item:focus {
   display: none;
 }
 
+.sidebar-toggle-wrapper {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: absolute;
-  top:  1rem;
-  left: 1rem;
+  background-color: #fff;
+  border-bottom: 3px solid $primary-color;
+  .dot {
+    background-color: $primary-color;
+  }
+  position: sticky;
+  top:  0;
+  left: 0;
+  width: 40px;
+  height: 40px;
   display: block;
-  width: 1.25rem;
   padding: .5rem .65rem;
-  border-radius: 4px;
+  border-radius: 0 0 50px 0;
   cursor: pointer;
 }
-.sidebar-toggle:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-bottom: .125rem;
-  border-top: .375rem double;
-  border-bottom: .125rem solid;
-
-  /* Make the border inside the box */
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+// .sidebar-toggle:before {
+//   display: block;
+//   content: "";
+//   width: 100%;
+//   padding-bottom: .125rem;
+//   border-top: .375rem double;
+//   border-bottom: .125rem solid;
+//
+//   /* Make the border inside the box */
+//   -webkit-box-sizing: border-box;
+//      -moz-box-sizing: border-box;
+//           box-sizing: border-box;
+// }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .wrap .sidebar-toggle {
-  color: #fff;
-  background-color: #505050;
+  background-color: $primary-color;
+  border-color: #fff;
+  .dot {
+    background-color: #fff;
+  }
 }
 
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
-    position: fixed;
-    width: 1.25rem;
+    position: sticky;
   }
   .sidebar-toggle:before {
     padding-bottom: .15rem;

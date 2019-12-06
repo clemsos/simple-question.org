@@ -11,16 +11,12 @@
 @import "layout";
 @import "sidebar";
 
-.sidebar-toggle {
-  color: #fff;
-}
-
 #site-header {
   margin: 0 ;
   background-color: $primary-color;
 
   @include media-query($on-palm) {
-    height: 90vh
+    height: 60vh
   }
 
   h1 {
@@ -163,6 +159,21 @@ $circle_size: 100px;
         height: $headshot_size;
       }
     }
+  }
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+
+  transition: .5s ease-in-out;
+  transform: scale(1);
+
+  &:hover {
+    transform: scale(1.2);
   }
 }
 
