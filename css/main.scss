@@ -10,6 +10,7 @@
 @import "typebase";
 @import "layout";
 @import "sidebar";
+@import "buttons";
 
 #site-header {
   margin: 0 ;
@@ -19,9 +20,9 @@
     height: 60vh
   }
 
-  h1 {
+  h3 {
     padding: 1em 0 1.3em 0;
-    margin: 0;
+    margin: 0 0 0 4em ;
 
     @include media-query($on-palm) {
       margin-left: .8rem;
@@ -163,8 +164,8 @@ $circle_size: 100px;
 }
 
 .dot {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -185,10 +186,16 @@ $circle_size: 100px;
   -moz-border-radius: $circle_size;
 }
 
+.center {
+  text-align: center;
+}
+
 .questions {
   padding: 0;
   margin: 0;
   // border-bottom: 1px solid #555;
+  // background-color: $primary-color;
+  color: $primary-color;
 }
 
 .question {

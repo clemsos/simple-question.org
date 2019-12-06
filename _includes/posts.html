@@ -1,0 +1,13 @@
+<ul class="posts-thumbnails">
+  {% for post in site.posts | limit:10 %}
+  <li class="post">
+    <p class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </p>
+
+  </li>
+  {% endfor %}
+</ul>
