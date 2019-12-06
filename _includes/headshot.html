@@ -4,9 +4,13 @@
     </div>
     <div class="people-info">
       <h3>
+        {% if people.url %}
         <a class="people-link" href="{{people.url}}">
           {{people.name}}
         </a>
+        {% else %}
+        {{people.name}}
+        {% endif %}
       </h3>
       <p class="people-bio">
         {{ people.bio }}
