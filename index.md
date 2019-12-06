@@ -30,9 +30,3 @@ Sa mission est triple :
 - mettre la science au service de la société en participant à la construction de solutions.
 - partager les connaissances avec un plus large public, scolaire, universitaire, acteur socio-économique, administration publique, citoyen.
 - favoriser l'émergence d'une pensée politique de l'anthropocène afin de pouvoir appréhender les extraordinaires défis pour le futur, et de permettre de sortir du déni en donnant du sens à l'action sociale, économique et politique.
-
-### L'Equipe
-
-- [Stéphane Grumbach](https://who.rocq.inria.fr/Stephane.Grumbach/), INRIA
-- [Olivier Hamant](https://planet-vie.ens.fr/1185/olivier-hamant), INRAe
-- [Pablo Jensen](http://perso.ens-lyon.fr/pablo.jensen/), CNRS
