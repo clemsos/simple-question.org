@@ -2,8 +2,9 @@
 title: "Micro Meso Macro - Approches pratiques et critiques de la visualisation de données"
 place: "Amphithéatre Descartes - Ens Lyon"
 link: "http://micromesomacro.com"
-img: "/uploads/micromesomacro2019.jpg"
+thumbnail: "/uploads/thumb-micromesomacro2019.jpg"
 layout: post
+category: évènements
 ---
 
 ### Les Jeudi 14 et Vendredi 15 nov 2019, *Micro Meso Macro* réunissait des practiciens et chercheurs venus des sciences, de l'art et du design pour s'interroger sur les représentations des changements de notre monde.

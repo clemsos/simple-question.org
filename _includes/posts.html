@@ -1,11 +1,16 @@
-<ul class="posts-thumbnails">
+<ul class="posts-list">
   {% for post in site.posts | limit:10 %}
   <li class="post">
+    <div class="thumbnail-img" style="background-image:url({{post.thumbnail}})">
+    </div>
+    <p class="post-meta">
+      <span class="post-category">{{ post.category | capitalize }}</span> |
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </p>
     <p class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
     </p>
 
   </li>

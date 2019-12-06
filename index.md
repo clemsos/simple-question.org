@@ -15,8 +15,10 @@ layout: page
 
 
 <br />
-### Actualités
-{% include posts.html %}
+### Actualités  
 
+<span></span>
+{% include posts.html %}
+<!-- 
 ### Dans la presse
-{% include news.html %}
+{% include news.html %} -->
