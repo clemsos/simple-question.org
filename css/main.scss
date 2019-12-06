@@ -166,11 +166,31 @@ $circle_size: 100px;
   }
 }
 
-
 .circular {
   width: $circle_size*2;
   height: $circle_size*2;
   border-radius: $circle_size;
   -webkit-border-radius: $circle_size;
   -moz-border-radius: $circle_size;
+}
+
+.questions {
+  padding: 0;
+  margin: 0;
+  // border-bottom: 1px solid #555;
+}
+
+.question {
+  transition: opacity .5s ease-in-out;
+  transition: color .5s ease-in-out;
+
+  &:hover {
+    opacity: .5;
+    color: $primary-color;
+  }
+
+  h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
 }

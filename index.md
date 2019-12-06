@@ -4,7 +4,7 @@ layout: page
 ---
 
 <div id="intro">
-  <h2>{{ site.description }}</h2>
+  {% include questions.html %}
 </div>
 
 ## La Charte

@@ -100,8 +100,8 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: color 0.8s;
+  transition: color 0.8s;
 
   &:visited {
     color: darken($brand-color, 15%);

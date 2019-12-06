@@ -3,11 +3,14 @@ layout: default
 ---
 <article class="post">
   <div class="post-content">
+    {% if page.title %}
     <header class="post-header">
       <h2 class="post-title" itemprop="name headline">
         {{ page.title }}
       </h2>
     </header>
+    {% endif %}
+
     {{ content }}
   </div>
 </article>

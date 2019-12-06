@@ -1,0 +1,29 @@
+<ul class="questions">
+  {% for q in site.data.questions %}
+    <li class="question" style="overflow: hidden; height:0; opacity:0">
+      <h3>{{q}}</h3>
+    </li>
+  {% endfor %}
+</ul>
+
+<script>
+
+  const speed = 2500
+  const qs = document.querySelectorAll("li.question")
+  console.log(qs)
+
+  var i = 0;
+  const nextQuestion = () =>  {
+    qs[i].style.opacity = 0
+    qs[i].style.height = 0
+    if (i < qs.length -1) i++
+    else i = 0
+    qs[i].style.opacity = 1
+    qs[i].style.height = "15em"
+  }
+
+  nextQuestion() // show first question
+
+  setInterval(nextQuestion, speed) // loop
+
+</script>
