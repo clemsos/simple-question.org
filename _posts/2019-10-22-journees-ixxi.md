@@ -1,7 +1,7 @@
 ---
 title: "Journée IXXI : le défi du changement climatique"
 place: "Amphithéatre Descartes - Ens Lyon"
-link: "http://ixxi.fr/..."
+link: "http://www.ixxi.fr/agenda/seminaires/journee-ixxi-2"
 layout: post
 ---
 
