@@ -1,32 +1,38 @@
-Menu
-- Home
-- Projets
-- Actualités
-- L'Equipe
-- A Propos
-- Email
 
-> icone Menu pas clair
+- [x] Menu
+  - Home
+  - Projets
+  - Actualités
+  - L'Equipe
+  - A Propos
+  - Email
+
+BUGS
+- [x] icone Menu pas clair
+- [x] BUG: remove Google for fonts + normalize css
+- [ ] BUG: fix ".html" in page links
+- [ ] 404 page
 
 Home
-- liste de questions
+- [x] liste de questions
 
 About / A Propos
-- move La Charte dans une page
-- enlever "L’Equipe" > signataires
+- [x] move La Charte dans une page
+- [x] enlever "L’Equipe" > signataires
 
 People / Equipe
-- trombinoscope / alphabetique
-- 4 personnes
-- bio: nom, photo, lien , bio 50 characters
+
+- [x] trombinoscope / alphabetique
+- [x] 4 personnes
+- [x] bio: nom, photo, lien , bio 50 characters
 
 News / Actualités
-- en patate
-- ajouter Micro Meso Macro
+- [x] en patate
+- [x] ajouter Micro Meso Macro
 
 Media
-- https://aoc.media/opinion/2019/11/14/la-science-des-questions-simples/
-- canard protestant (réforme)
+- [x] https://aoc.media/opinion/2019/11/14/la-science-des-questions-simples/
+- [ ] canard protestant (réforme)
 
 Projets / Projets
 
@@ -35,4 +41,3 @@ Projets / Projets
   - staff
   - blabla
   - items : publications
-  -
