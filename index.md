@@ -8,7 +8,7 @@ layout: page
 </div>
 
 <br />
-<a href="/charte" class="button button-primary">Lire La Charte</a>
+<a href="/charte.html" class="button button-primary">Lire La Charte</a>
 
 <br />
 {% include questions.html %}
@@ -19,6 +19,6 @@ layout: page
 
 <span></span>
 {% include posts.html %}
-<!-- 
+<!--
 ### Dans la presse
 {% include news.html %} -->
