@@ -5,11 +5,11 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "assets/images"
+media_folder: "uploads"
 
 collections:
-  - name: "Articles"
-    label: "Articles"
+  - name: "Actualités"
+    label: "Actualités"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
