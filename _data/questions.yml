@@ -1,16 +1,3 @@
-- "Qu'est-ce qu'une société résiliente ?"
-- "Comment les institutions scientifiques doivent-elles s'organiser pour répondre aux défis écologiques ?"
-- "La révolution numérique correspond-elle à un changement de civilisation ?"
-- "Pourquoi le numérique connaît une croissance aussi rapide ?"
-- "Comment traduire les recommandations du GIEC en politiques publiques ?"
-- "Pourquoi le numérique est contemporain de la prise de conscience des limites ?"
-- "Comment co-exister dans un environnement dégradé ?"
-- "Quel équilibre trouver entre développement personnel et impacts globaux ?"
-- "Quelle générations futures devrions-nous laisser à notre planète ?"
-- "Pourquoi développer des solutions low-tech ?"
-- "Comment s'adapter à un monde chimiquement déréglé ?"
-- "Quel type de management pour un monde durable ?"
-- "L'approche systémique est-elle aussi un outil politique ?"
-- "Que peut-on apprendre du vivant pour questionner les systèmes sociaux ? "
-- "Pourquoi les incohérences sont-elles parfois bénéfiques ?"
-- "Que veut dire \"être en bonne santé\" dans l'anthropocène ?"
+questions:
+  - Hello?
+  - dsdsd
