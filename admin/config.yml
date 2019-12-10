@@ -36,7 +36,7 @@ collections:
           - label: "Questions"
             name: "questions"
             widget: "list"
-            field: {widget: string}
+            field: {label: "Question", widget: string}
       - label: "L'Equipe"
         name: "people"
         file: "_data/team.yml"
